@@ -1,0 +1,13 @@
+<!--pages/welcome.wxml-->
+<view>
+<image src='{{profile.avatarUrl}}' mode="widthFix">logo</image>
+<text>你好，{{profile.nickName}}</text>
+<button wx:if="{{isLogin===false}}" open-type='getUserInfo' bindgetuserinfo='getProfile'>点击登录</button>
+</view>
+<view >
+  <view wx:for="{{pagenav}}" wx:for-inex="index" wx:for-item="item" wx:key="index"  >
+    <navigator url="{{item.url}}" open-type="navigate">
+      <image src='{{item.img}}' mode="widthFix">logo</image> <text>{{item.name}}</text>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/welcome",
+    "pages/index/index",
+    "pages/detail/index",
+    "pages/thing/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "企业助手"
+  }
+}

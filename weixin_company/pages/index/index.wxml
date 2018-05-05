@@ -1,0 +1,11 @@
+<!--pages/index/index.wxml-->
+<view>
+  <view wx:for="{{articles}}" wx:for-index="index" wx:for-item="article" wx:key="id">
+    <image src="{{article.cover}}"  data-id="{{article.id}}" bindtap="todetailpage" ></image>
+    <view class="article-item">
+      <view data-id="{{article.id}}" bindtap="todetailpage" > {{article.title}}</view>
+      <view >{{article.description}}</view>
+    </view>
+  </view>
+</view>
+
