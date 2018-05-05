@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : server.cuci.cc
-Source Server Version : 50558
-Source Host           : server.cuci.cc:3306
-Source Database       : admin_v3
+Source Server         : 116.62.235.99
+Source Server Version : 50721
+Source Host           : 116.62.235.99:3306
+Source Database       : xiaochengxu
 
 Target Server Type    : MYSQL
-Target Server Version : 50558
+Target Server Version : 50721
 File Encoding         : 65001
 
-Date: 2018-05-04 11:40:19
+Date: 2018-05-05 14:47:32
 */
 
 SET FOREIGN_KEY_CHECKS=0;
